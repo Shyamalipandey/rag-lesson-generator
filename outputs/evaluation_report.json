@@ -1,0 +1,110 @@
+{
+  "run_id": "20261113-143825-c36c67",
+  "generated_at": "2026-11-13T09:08:25+00:00",
+  "topic": "Introduction to RAG (Retrieval-Augmented Generation)",
+  "final_status": "APPROVED",
+  "approved": true,
+  "attempts_used": 1,
+  "max_attempts": 3,
+  "regenerations_used": 0,
+  "best_attempt": 1,
+  "llm_provider": "offline",
+  "evaluation_method": "rule-based checker (offline mode - simpler than an LLM judge)",
+  "demo_mode": false,
+  "error": "",
+  "prevention_instructions_used": false,
+  "final_evaluation": {
+    "overall_status": "PASS",
+    "checks": [
+      {
+        "id": "technical_accuracy",
+        "criterion": "Technical accuracy",
+        "status": "PASS",
+        "reason": "No incorrect technical claim found, and the lesson states that RAG does not change the model weights."
+      },
+      {
+        "id": "beginner_language",
+        "criterion": "Beginner-friendly language",
+        "status": "PASS",
+        "reason": "Sentences are short (average 10.9 words) and everyday words are used."
+      },
+      {
+        "id": "clear_rag_explanation",
+        "criterion": "Clear explanation of RAG",
+        "status": "PASS",
+        "reason": "RAG is defined with its full form, retrieval, generation and an outside source."
+      },
+      {
+        "id": "why_rag_needed",
+        "criterion": "Explanation of why RAG is needed",
+        "status": "PASS",
+        "reason": "Old knowledge, missing private information and wrong answers are all explained."
+      },
+      {
+        "id": "complete_rag_workflow",
+        "criterion": "Explanation of the complete RAG workflow",
+        "status": "PASS",
+        "reason": "The full workflow (prepare, chunk, embed, store, ask, retrieve, prompt, generate) is explained with a diagram."
+      },
+      {
+        "id": "embeddings_correct",
+        "criterion": "Correct explanation of embeddings",
+        "status": "PASS",
+        "reason": "Embeddings are explained as numbers that capture meaning, with a numeric example."
+      },
+      {
+        "id": "vector_database_correct",
+        "criterion": "Correct explanation of vector databases",
+        "status": "PASS",
+        "reason": "A vector database is explained as storing embeddings and finding the most similar ones."
+      },
+      {
+        "id": "real_world_example",
+        "criterion": "Practical real-world examples",
+        "status": "PASS",
+        "reason": "A step-by-step college/library example is given."
+      },
+      {
+        "id": "no_unexplained_jargon",
+        "criterion": "No unexplained technical jargon",
+        "status": "PASS",
+        "reason": "All checked technical terms are explained where they first appear."
+      },
+      {
+        "id": "logical_sequence",
+        "criterion": "Logical teaching sequence",
+        "status": "PASS",
+        "reason": "Sections follow a logical simple-to-advanced order."
+      },
+      {
+        "id": "advantages_limitations",
+        "criterion": "Advantages and limitations",
+        "status": "PASS",
+        "reason": "5 advantages and 5 honest limitations are listed."
+      },
+      {
+        "id": "assessment_questions",
+        "criterion": "Knowledge assessment questions",
+        "status": "PASS",
+        "reason": "Five questions, each with an answer."
+      },
+      {
+        "id": "required_sections_and_comparison",
+        "criterion": "Required sections, RAG vs normal LLM, and recap",
+        "status": "PASS",
+        "reason": "All 15 required sections are present, including the comparison and the recap."
+      }
+    ],
+    "improvement_suggestions": [],
+    "validation_notes": []
+  },
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "status": "PASS",
+      "passed_checks": 13,
+      "failed_checks": [],
+      "error": ""
+    }
+  ]
+}

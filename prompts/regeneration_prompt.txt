@@ -1,0 +1,27 @@
+TASK
+A beginner lesson on "{{topic}}" was REJECTED by a strict evaluator. Write a fully corrected version of the complete lesson.
+
+LEARNER
+A 12th-grade graduate from India. Limited English vocabulary. No AI or programming knowledge. Use simple Indian English and short sentences.
+
+FAILED CHECKPOINTS (you must fix EVERY one of them)
+{{failed_checks}}
+
+IMPROVEMENT SUGGESTIONS FROM THE EVALUATOR
+{{suggestions}}
+
+LESSONS LEARNED FROM PREVIOUS RUNS
+{{prevention_instructions}}
+
+RULES
+1. Fix every failed checkpoint. Do not introduce new mistakes.
+2. Keep the parts that were already correct.
+3. Keep the same 15 numbered "##" sections in the same order, as in the rejected lesson (Artificial Intelligence, Generative AI, LLM, RAG, Why RAG, How RAG works, Embeddings, Vector database, Retrieval, Answer generation, Practical example, Advantages and Limitations, RAG vs Normal LLM, Recap, Five questions with answers).
+4. Remember: RAG retrieves outside information and gives it to the LLM as context. RAG does NOT normally change the LLM's weights.
+5. Explain every technical term at its first use.
+
+REJECTED LESSON
+{{rejected_lesson}}
+
+OUTPUT
+Return ONLY the corrected, complete lesson in Markdown. No comments outside the lesson. Do not wrap it in a code fence.

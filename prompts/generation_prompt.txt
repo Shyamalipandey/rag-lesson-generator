@@ -1,0 +1,47 @@
+TASK
+Write a complete, standalone beginner lesson in Markdown on this topic:
+{{topic}}
+
+LEARNER
+- A 12th-grade graduate from India.
+- Limited English vocabulary, from a non-English-medium school.
+- No earlier knowledge of AI or programming.
+- Wants to start a career in Artificial Intelligence.
+
+REQUIRED STRUCTURE
+Use exactly these "##" headings, in this order. Start the document with one "#" title line.
+## 1. What is Artificial Intelligence?
+## 2. What is Generative AI?
+## 3. What is an LLM?
+## 4. What is RAG?
+## 5. Why Do We Need RAG?
+## 6. How Does RAG Work? (Step by Step)
+## 7. What Are Embeddings?
+## 8. What Is a Vector Database?
+## 9. What Is Retrieval?
+## 10. How Does RAG Generate an Answer?
+## 11. A Practical Real-World Example
+## 12. Advantages and Limitations of RAG   (use "### Advantages" and "### Limitations" sub-headings, at least 3 bullets each)
+## 13. RAG vs Normal LLM Response           (use a comparison table)
+## 14. Simple Recap
+## 15. Check Your Understanding (Five Questions)   (Q1 to Q5, each followed by "Answer:")
+
+TEACHING RULES
+1. Use simple Indian English and short sentences (about 15 words or fewer).
+2. Explain every technical term in simple words the FIRST time it appears. Do not use a term before explaining it.
+3. Use relatable examples from Indian education, colleges, libraries and everyday life.
+4. Use step-by-step explanations and simple text diagrams (inside code blocks) where they help.
+5. Make the lesson understandable without any outside help.
+6. NEVER sacrifice technical accuracy for simplicity. Important facts to respect:
+   - RAG retrieves relevant outside information and gives it to the LLM as context inside the prompt.
+   - RAG does NOT normally change, update or retrain the LLM's weights. The LLM does not learn permanently from RAG.
+   - Embeddings are lists of numbers (vectors) that represent meaning; similar meanings give nearby vectors.
+   - A vector database stores embeddings (plus the original text) and finds the most similar ones (similarity search).
+   - RAG reduces hallucination but does not remove it. Poor retrieval gives poor answers.
+7. If you use a made-up example (a fictional college, dates, fees), say clearly that it is imaginary.
+
+LESSONS LEARNED FROM PREVIOUS RUNS (follow these carefully)
+{{prevention_instructions}}
+
+OUTPUT
+Return ONLY the lesson in Markdown. No introduction and no comments outside the lesson. Do not wrap it in a code fence.

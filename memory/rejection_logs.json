@@ -1,0 +1,20 @@
+[
+  {
+    "run_id": "20261113-143824-d0156b",
+    "timestamp": "2026-11-13T09:08:24+00:00",
+    "topic": "Introduction to RAG (Retrieval-Augmented Generation)",
+    "attempt": 1,
+    "demo_mode": true,
+    "provider": "offline",
+    "failed_checks": [
+      {
+        "id": "technical_accuracy",
+        "criterion": "Technical accuracy",
+        "reason": "Incorrect claim: \"RAG means that an LLM permanently learns new information by changing its model weights.\". RAG retrieves relevant external information and supplies it as context to the LLM. It does not normally update the model's weights."
+      }
+    ],
+    "improvement_suggestions": [
+      "Technical accuracy: Double-check every technical claim. RAG retrieves outside information and gives it to the LLM as context; it does NOT change the model's weights and it does NOT guarantee correct answers."
+    ]
+  }
+]

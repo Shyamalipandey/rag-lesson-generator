@@ -1,0 +1,6 @@
+langgraph>=1.0
+streamlit>=1.40
+python-dotenv>=1.0
+anthropic>=0.40       # needed only if you use the Anthropic provider
+openai>=1.50          # needed only if you use the OpenAI / OpenAI-compatible provider
+pytest>=8.0

@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "total_runs": 2,
+  "total_regenerations": 1,
+  "failure_counts": {},
+  "common_mistakes": {},
+  "successful_improvements": [
+    {
+      "run_id": "20261113-143824-d0156b",
+      "demo_mode": true,
+      "checkpoint": "technical_accuracy",
+      "criterion": "Technical accuracy",
+      "problem": "Incorrect claim: \"RAG means that an LLM permanently learns new information by changing its model weights.\". RAG retrieves relevant external information and supplies it as context to the LLM. It does not normally update the model's weights.",
+      "fixed_in_attempt": 2
+    }
+  ],
+  "recurrence": {},
+  "user_feedback": [],
+  "runs": [
+    {
+      "run_id": "20261113-143824-d0156b",
+      "timestamp": "2026-11-13T09:08:24+00:00",
+      "topic": "Introduction to RAG (Retrieval-Augmented Generation)",
+      "provider": "offline",
+      "demo_mode": true,
+      "final_status": "APPROVED",
+      "attempts_used": 2,
+      "regenerations": 1,
+      "attempt_results": [
+        {
+          "attempt": 1,
+          "status": "FAIL",
+          "failed_ids": [
+            "technical_accuracy"
+          ]
+        },
+        {
+          "attempt": 2,
+          "status": "PASS",
+          "failed_ids": []
+        }
+      ],
+      "prevention_rules_active": []
+    },
+    {
+      "run_id": "20261113-143825-c36c67",
+      "timestamp": "2026-11-13T09:08:25+00:00",
+      "topic": "Introduction to RAG (Retrieval-Augmented Generation)",
+      "provider": "offline",
+      "demo_mode": false,
+      "final_status": "APPROVED",
+      "attempts_used": 1,
+      "regenerations": 0,
+      "attempt_results": [
+        {
+          "attempt": 1,
+          "status": "PASS",
+          "failed_ids": []
+        }
+      ],
+      "prevention_rules_active": []
+    }
+  ]
+}
